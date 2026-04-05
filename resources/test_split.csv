@@ -1,0 +1,21 @@
+source,log_message
+ModernCRM,"nova.osapi_compute.wsgi.server [req-b9718cd8-f65e-49cc-8349-6cf7122af137 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2675118"
+ModernCRM,Email service experiencing issues with sending
+AnalyticsEngine,Unauthorized access to data was attempted
+ThirdPartyAPI,File data_3847.csv uploaded successfully by user User175.
+LegacyCRM,Task assignment for TeamID 3425 could not complete due to invalid priority level.
+ModernCRM,Backup completed successfully.
+LegacyCRM,Customer follow-up process for lead ID 5621 failed due to missing next action
+LegacyCRM,Escalation rule execution failed for ticket ID 9807 - undefined escalation level.
+BillingSystem,"nova.osapi_compute.wsgi.server [req-6fe0e366-f20b-454e-ade1-771deb7a911f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" Status code -  200 len: 1893 time: 0.2608259"
+ModernCRM,"nova.osapi_compute.wsgi.server [req-5f1c2027-e1b0-43f1-b6d3-694f483a69be 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" RCODE  200 len: 1893 time: 0.2732208"
+ModernCRM,Account with ID 5351 created by User634.
+ModernHR, Suspicious data export activity was identified
+LegacyCRM,API endpoint 'getCustomerDetails' is deprecated and will be removed in version 3.2. Use 'fetchCustomerInfo' instead.
+BillingSystem,User User641 logged out.
+AnalyticsEngine,Repeated failed login attempts occurred for user ID 8527
+LegacyCRM,The 'ExportToCSV' feature is outdated. Please migrate to 'ExportToXLSX' by the end of Q3.
+LegacyCRM,Support for legacy authentication methods will be discontinued after 2025-06-01.
+ModernCRM,Potential security risk from 192.168.81.123 identified
+ModernCRM,Shard 2 experienced a replication failure
+LegacyCRM,Lead conversion failed for prospect ID 7842 due to missing contact information.
