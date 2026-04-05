@@ -32,15 +32,18 @@ def regex_classify_log(log_message):
 
 if __name__ == "__main__":
     # Example usage
-    log_message1 = "File data_20231010.csv uploaded successfully by user User123."
-    log_message2 = "Account with ID 5351 created by User634."
-    log_message3 = "User User685 logged out."
-    log_message4 = "Backup started at 2025-05-14 07:06:55."
-    log_message5 = "Backup completed successfully."
-    log_message6 = "  Backup ended at 2025-08-08 13:06:23."
-    log_message7 = "System updated to version 2.5.1"
-    log_message8 = "System reboot initiated by user User789."
-    log_message9 = "Disk cleanup completed successfully."
+    log_messages = [
+        "File data_20231010.csv uploaded successfully by user User123.",
+        "Account with ID 5351 created by User634.",
+        "User User685 logged out.",
+        "Backup started at 2025-05-14 07:06:55.",
+        "Backup completed successfully."
+        "  Backup ended at 2025-08-08 13:06:23.",
+        "System updated to version 2.5.1",
+        "System reboot initiated by user User789.",
+        "Disk cleanup completed successfully."
+    ]
     
-    log_type = regex_classify_log(log_message6)
-    print(f"Classified Log Type: {log_type}")
+    for log in log_messages:
+        log_type = regex_classify_log(log)
+        print(f"Log Message: {log}\nClassified Log Type: {log_type}\n\n")
