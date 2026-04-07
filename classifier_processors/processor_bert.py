@@ -55,7 +55,10 @@ if __name__ == "__main__":
         ("ModernCRM", "Backup started at 2025-05-14 07:06:55."),
         ("AnalyticsEngine","Unauthorized access to data was attempted"),
         ("ModernHR","Shard 6 replication task ended in failure"),
-        ("ThirdPartyAPI","Multiple bad login attempts detected on user 8538 account")
+        ("ThirdPartyAPI","Multiple bad login attempts detected on user 8538 account"),
+        ("AnalyticsEngine",'''nova.osapi_compute.wsgi.server [req-78acc268-1d58-4b31-967a-c31e22012a78 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" HTTP status code -  200 len: 1893 time: 0.2668920'''),
+        ("LegacyCRM","Lead conversion failed for prospect ID 7842 due to missing contact information."),
+        ("LegacyCRM","API endpoint 'getCustomerDetails' is deprecated and will be removed in version 3.2. Use 'fetchCustomerInfo' instead.")
     ]
 
     for log in logs:
