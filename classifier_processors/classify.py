@@ -1,11 +1,10 @@
-''' This module contains functions for classifying log messages using regular expressions.'''
+'''This module contains functions for classifying log messages.'''
 
 import os
-from os import path
 
-from processor_regex import regex_classify_log
-from processor_bert import bert_classify_log
-from processor_llm import llm_classify_log
+from classifier_processors.processor_regex import regex_classify_log
+from classifier_processors.processor_bert import bert_classify_log
+from classifier_processors.processor_llm import llm_classify_log
 
 
 # The classify function takes a list of log messages and returns a classified label for each log.
@@ -41,7 +40,7 @@ def classify_csv_input(input_csv_file):
     # Extract the label from the tuple
     df["target_label"] = [label for _, _, label in classify(csv_logs)]
 
-    output_file = input_csv_file.replace(".csv", "_classified.csv")
+    output_file = input_csv_file.replace(".csv", "_classified_output.csv")
     df.to_csv(output_file, index=False)
     print(f"Classified logs saved to {output_file}")
 
